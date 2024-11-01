@@ -10,7 +10,6 @@ A full-stack **Uber Clone** mobile application built using React Native, designe
 - **Backend**: Serverless [PostgreSQL](https://www.postgresql.org/) database
 - **State Management**: [Zustand](https://github.com/pmndrs/zustand)
 - **Authentication**: [Clerk](https://clerk.dev/) for secure email and Google-based login
-- **Payments**: [Stripe](https://stripe.com/) for mock payment functionality
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) for efficient and responsive UI styling
 
 ## 🚀 Features
@@ -62,7 +61,7 @@ A full-stack **Uber Clone** mobile application built using React Native, designe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/uber-clone.git
+   git clone https://github.com/one-Alive/uber.git
    cd uber-clone
    ```
 
@@ -72,7 +71,7 @@ A full-stack **Uber Clone** mobile application built using React Native, designe
    ```
 
 3. Set up environment variables:
-   - Configure your API keys for Google Maps, Geoapify, Stripe, and Clerk in an `.env` file.
+   - Configure your API keys for Google Maps, Geoapify, and Clerk in an `.env` file.
 
 4. Run the app:
    ```bash
@@ -82,14 +81,13 @@ A full-stack **Uber Clone** mobile application built using React Native, designe
 ### ⚙️ Additional Setup
 
 - Set up PostgreSQL database for handling data storage and retrieval.
-- Configure Stripe for handling mock payments.
 
 ## 📖 Usage
 
 1. **🆕 Sign Up / Log In**: Begin by creating an account or logging in via email or Google OAuth.
 2. **🗺️ Search and Select Rides**: Use the map to locate nearby cars, search for destinations, and confirm rides.
 3. **👤 Profile and History**: Manage your account details and view your booking history.
-4. **💳 Test Payments**: Use the Stripe integration to simulate payments in the app.
+4. **💳 Test Payments**: Using mock data
 
 ## 🔮 Future Enhancements
 
